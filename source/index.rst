@@ -10,6 +10,9 @@ Welcome to AT-Summit - Designing for Automated Testing and easy Embedded Softwar
    :maxdepth: 2
    :caption: Contents:
 
+   preface
+   embedded_dev
+   interfaces
 
 
 Indices and tables
