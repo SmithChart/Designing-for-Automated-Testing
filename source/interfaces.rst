@@ -97,7 +97,7 @@ Hardware Watchdog
 
 If the board contains a hardware watchdog, it is useful have a pin to disable
 it during development and automated testing.
-Ideally, this like should be connected in the same way as the boot mode and
+Ideally, this signal should be connected in the same way as the boot mode and
 UART pins.
 
 Debug Connector
