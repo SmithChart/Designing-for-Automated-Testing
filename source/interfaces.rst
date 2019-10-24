@@ -70,7 +70,8 @@ This allows a testing framework to acquire the serial port even before
 the DUT is powered on and receive even the first characters without
 the need to wait for a specific USB-device to appear.
 
-
+If UART connectivity is done using USB device, it should have unique ID
+presented to the host.
 
 GND for Measurement
 -------------------
@@ -105,7 +106,9 @@ non-volatile memory.
 
 On some CPUs the download can be done via USB. USB is convenient because it
 features a relatively high bandwidth and does not need expensive external
-components to be used.
+components to be used. Each board should present unique ID to the host. If IDs
+are identical for all boards there is no way to drive such devices in
+fully automated environment.
 
 While the ROM-Code is running the CPU's USB-port is in device mode.
 The device is connected to the USB host on a test-server or the developers
