@@ -62,9 +62,21 @@ GND for Measurement
 Even during software development there is a need to measure the level of
 pins on a device.
 
-.. todo::
+For this purpose a thru-hole pin or large via that is clearly labeled as
+*GND* helps the developer to conduct measurements.
 
-   Add more details
+Power for Signalling
+--------------------
+
+When pins for boot mode selection or disable / enable of functions on the
+board are exposed for the developer it is important to add also make the
+voltages available that these pins should be pulled to.
+
+If a signal is intended to be pulled to either GND or 1.8V via an external
+device both voltages should be available.
+
+If a designated debug connector is added to the board these voltages should
+be available there, too.
 
 USB for Serial Download via ROM-Code
 ------------------------------------
