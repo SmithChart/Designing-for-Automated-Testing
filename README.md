@@ -1,6 +1,7 @@
-This repository contains the document "Design for Testability" developed by
-the attendees of the Automated Testing Summit at the ELC-E 2018.
-
+This repository contains the document "Design for Testability".
+This documentation is intended to collect facts and hints on 
+*how to develop Embedded Hardware* in a way that Embedded
+Software development is made easy.
 
 How to build
 ===============
@@ -14,4 +15,7 @@ The output is placed in the `build/` directory.
 How to contribute
 ====================
 
-tbd.
+Please note the *LICENSE*.
+
+Afterwards feel free to improve this documentation with a Pull request.
+If you think anything is wrong just open an Issue.
