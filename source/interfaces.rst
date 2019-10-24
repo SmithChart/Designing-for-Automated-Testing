@@ -91,3 +91,20 @@ Care has to be taken that this port can be kept in device mode e.g. by using
 the OTG feature of an USB-port.
 If the used port is needed as a host-port the test infrastructure needs some
 way to control the mode of the port.
+
+Hardware Watchdog
+-----------------
+
+If the board contains a hardware watchdog, it is useful have a pin to disable
+it during development and automated testing.
+Ideally, this signal should be connected in the same way as the boot mode and
+UART pins.
+
+Debug Connector
+---------------
+
+When many similar boards need to be connected to a development, testing or
+provisioning setup, combining the interfaces above on a single connector can be
+useful.
+A complete design example for this is the `ChromiumOS Servo board
+<https://chromium.googlesource.com/chromiumos/third_party/hdctools/+/refs/heads/master/docs/servo_v4.md>`_.
