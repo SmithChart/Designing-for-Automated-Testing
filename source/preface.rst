@@ -42,5 +42,4 @@ your changes.
 License
 =======
 
-This document is licensed under
-`GNU Free Documentation License 1.3 <https://www.gnu.org/licenses/fdl-1.3.txt>`_.
+This work is licensed under a  `Creative Commons Attribution-ShareAlike 3.0 Unported License <https://creativecommons.org/licenses/by-sa/3.0/>`_.
