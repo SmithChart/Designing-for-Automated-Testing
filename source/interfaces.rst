@@ -107,7 +107,7 @@ non-volatile memory.
 On some CPUs the download can be done via USB. USB is convenient because it
 features a relatively high bandwidth and does not need expensive external
 components to be used. Each board should present unique ID to the host. If IDs
-are identical for all boards there is no way to drive such devices in
+are identical for all boards it is very inconvenient to drive such devices in
 fully automated environment.
 
 While the ROM-Code is running the CPU's USB-port is in device mode.
@@ -139,3 +139,10 @@ provisioning setup, combining the interfaces above on a single connector can be
 useful.
 A complete design example for this is the `ChromiumOS Servo board
 <https://chromium.googlesource.com/chromiumos/third_party/hdctools/+/refs/heads/master/docs/servo_v4.md>`_.
+
+Unique MAC address
+------------------
+
+MAC addresses of network interfaces should be unique for each board.
+Alternatively there should be a way to change MAC address and save this
+setting into permanent storage.
