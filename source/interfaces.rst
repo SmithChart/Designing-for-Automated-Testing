@@ -56,6 +56,22 @@ For some i.MX - for example - only a few serial ports and pin-mux settings can
 be used to run the vendor's RAM-calibration tool. Ask your software developer
 for specific restrictions for your CPU.
 
+Serial Interface: UART via USB
+..............................
+
+In some cases it is useful to expose the UART via an integrated USB-to-UART
+interface on the board itself.
+
+In this case the USB-to-UART interface should be powered from the bus and
+not the DUT.
+This makes the USB-device available on the bus even if the DUT is not
+powered.
+This allows a testing framework to acquire the serial port even before
+the DUT is powered on and receive even the first characters without
+the need to wait for a specific USB-device to appear.
+
+
+
 GND for Measurement
 -------------------
 
