@@ -34,7 +34,7 @@ How to contribute
 =================
 
 This document is developed as a GitHub project at 
-`https://github.com/pengutronix/tbd <https://github.com/pengutronix/tbd>`_.
+`https://github.com/SmithChart/Designing-for-Automated-Testing <https://github.com/SmithChart/Designing-for-Automated-Testing>`_.
 
 If you want to contribute to this project please create a pull request with
 your changes.
