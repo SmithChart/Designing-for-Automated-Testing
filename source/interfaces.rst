@@ -73,6 +73,14 @@ the need to wait for a specific USB-device to appear.
 If UART connectivity is done using USB device, it should have unique ID
 presented to the host.
 
+Serial Interface: GPIOs on USB-UART-Interfaces
+..............................................
+
+Most UART-to-USB interfaces provide some surplus general purpose IOs.
+In cases where an USB to UART interface is placed on the board itself
+this GPIOs can be used to change boot modes or issue a reset.
+This eliminates the need for additional GPIOs from other devices.
+
 GND for Measurement
 -------------------
 
